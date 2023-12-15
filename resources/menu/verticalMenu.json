@@ -1,0 +1,32 @@
+{
+    "menu": [
+        {
+            "url": "/admin/products",
+            "name": "Produk",
+            "icon": "menu-icon tf-icons mdi mdi-package-variant",
+            "slug": [
+                "admin-products-index",
+                "admin-products-create",
+                "admin-products-store",
+                "admin-products-show",
+                "admin-products-edit",
+                "admin-products-update",
+                "admin-products-destroy"
+            ]
+        },
+        {
+            "url": "/admin/orders",
+            "name": "Pesanan",
+            "icon": "menu-icon tf-icons mdi mdi-view-list",
+            "slug": [
+                "admin-orders-index",
+                "admin-orders-create",
+                "admin-orders-store",
+                "admin-orders-show",
+                "admin-orders-edit",
+                "admin-orders-update",
+                "admin-orders-destroy"
+            ]
+        }
+    ]
+}
